@@ -12,7 +12,7 @@ class bmi_calculator extends StatefulWidget {
 }
 
 class _bmi_calculatorState extends State<bmi_calculator> {
-  double height=1;
+  int height=50;
   int weight=50;
 
 
@@ -209,8 +209,6 @@ class _bmi_calculatorState extends State<bmi_calculator> {
             ),
           ),
         ),
-
-
       ),
     );
   }

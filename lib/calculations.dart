@@ -6,8 +6,9 @@ class calculations{
   late double result = .9;
   calculations({required this.h,required this.w});
   calc(){
-    result=(w/(h*h));
-    return result.toString();
+    result=(w/(h*h* 0.0254* 0.0254));
+   // return result.toString();
+    return result.toStringAsFixed(4);
   }
   feedback(){
     if(result<18){
